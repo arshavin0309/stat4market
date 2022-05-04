@@ -70,8 +70,24 @@ button {
           justify-content: space-between;
 }
 
-.header__logo {
+.header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: 30px;
+}
+
+.header__logo {
+  padding-right: 25px;
+}
+
+.header__logo--info {
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(51, 26, 47, 0.9);
+  border-left: 1px solid rgba(51, 26, 47, 0.5);
 }
 
 .header__select {

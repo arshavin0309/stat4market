@@ -59,8 +59,21 @@ button {
         align-items: center;
         justify-content: space-between;
     }
-    &__logo {
+    &__box {
+        display: flex;
         margin-right: 30px;
+    }
+    &__logo {
+        padding-right: 25px;
+
+        &--info {
+            padding-left: 25px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(51, 26, 47, 0.9);
+            border-left: 1px solid rgba(51, 26, 47, 0.5);;
+        }
     }
     &__select {
         margin-right: 50px;
